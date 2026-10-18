@@ -1,0 +1,12 @@
+function sumArray(arr) {
+    let total = 0;
+
+    for (const number of arr) {
+       total += number
+    }
+
+    return total
+}
+
+console.log(sumArray([1, 2, 3, 4])); 
+console.log(sumArray([5, -2, 7])); 
